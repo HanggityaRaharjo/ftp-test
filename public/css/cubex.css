@@ -1,0 +1,392 @@
+ 
+
+        /* --------------------------------------------------------- Breadcrumbs -------------------------------------------------*/
+
+        /* --------------------------------------------------------- Base CSS -------------------------------------------------*/
+
+
+
+        /* --------------------------------------------------------- End Base CSS -------------------------------------------------*/
+        
+
+
+        .breadcrumb{
+            
+        }
+        .breadcrumb-item{
+            
+        }
+        .breadcrumb-item::before{
+            
+        }
+        .breadcrumb-item a{
+            
+        }
+        .breadcrumb-item.active{
+            
+        }
+
+        /* --------------------------------------------------------- Background -------------------------------------------------*/
+        .sb-topnav {
+            background:#A1D4B5!important; 
+        }
+
+        .bg-primary{
+            background:#609977!important;
+        }
+
+        .bg-secondary{
+            background:#6c757d!important;
+        }
+
+        .bg-success{
+            background:#28a745!important;
+        }
+
+        .bg-warning{
+            background:#ffc107!important;
+        }
+
+        .bg-info{
+            background:#17a2b8!important;
+        }
+
+        .bg-danger{
+            background:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- End Background -------------------------------------------------*/
+
+        /* --------------------------------------------------------- Button -------------------------------------------------*/
+      
+        .btn-primary{
+            background:#609977!important;border-color:#609977!important;
+        }
+
+        .btn-secondary{
+            background:#6c757d!important;border-color:#6c757d!important;
+        }
+
+        .btn-success{
+            background:#28a745!important;border-color:#28a745!important;
+        }
+
+        .btn-warning{
+            background:#ffc107!important;border-color:#ffc107!important;
+        }
+
+        .btn-info{
+            background:#17a2b8!important;border-color:#17a2b8!important;
+        }
+
+        .btn-danger{
+            background:#dc3545!important;border-color:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- Outline Button -------------------------------------------------*/
+      
+        .btn-outline-primary{
+            color:#609977!important;border-color:#609977!important;
+        }
+
+        .btn-outline-secondary{
+            color:#6c757d!important;border-color:#6c757d!important;
+        }
+
+        .btn-outline-success{
+            color:#28a745!important;border-color:#28a745!important;
+        }
+
+        .btn-outline-warning{
+            color:#ffc107!important;border-color:#ffc107!important;
+        }
+
+        .btn-outline-info{
+            color:#17a2b8!important;border-color:#17a2b8!important;
+        }
+
+        .btn-outline-danger{
+            color:#dc3545!important;border-color:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- End Button -------------------------------------------------*/
+
+        /* --------------------------------------------------------- Navbar-------------------------------------------------*/
+      
+        .navbar-primary{
+            background:#609977!important;
+        }
+
+        .navbar-secondary{
+            background:#6c757d!important;
+        }
+
+        .navbar-success{
+            background:#28a745!important;
+        }
+
+        .navbar-warning{
+            background:#ffc107!important;
+        }
+
+        .navbar-info{
+            background:#17a2b8!important;
+        }
+
+        .navbar-danger{
+            background:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- End Navbar-------------------------------------------------*/
+        /* --------------------------------------------------------- Alert-------------------------------------------------*/
+      
+        .alert-primary{
+            background:#609977!important;
+        }
+
+        .alert-secondary{
+            background:#6c757d!important;
+        }
+
+        .alert-success{
+            background:#28a745!important;
+        }
+
+        .alert-warning{
+            background:#ffc107!important;
+        }
+
+        .alert-info{
+            background:#17a2b8!important;
+        }
+
+        .alert-danger{
+            background:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- End Alert-------------------------------------------------*/
+        /* --------------------------------------------------------- Text-------------------------------------------------*/
+      
+        .text-primary{
+            color:#609977!important;
+        }
+
+        .text-secondary{
+            color:#6c757d!important;
+        }
+
+        .text-success{
+            color:#28a745!important;
+        }
+
+        .text-warning{
+            color:#ffc107!important;
+        }
+
+        .text-info{
+            color:#17a2b8!important;
+        }
+
+        .text-danger{
+            color:#dc3545!important;
+        }
+
+        /* --------------------------------------------------------- End Text-------------------------------------------------*/
+
+        
+        .sb-topnav{
+            
+            background-position:center;
+            background-size:cover;
+        }
+
+        .navbar-dark .navbar-brand{
+            
+        }
+        
+
+        .sb-sidenav-dark{
+            background:#3A5661!important;
+        }
+
+        #footer{
+            
+        }
+
+        .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon{
+            color:#DFEAEE;
+        }
+        .sb-sidenav .sb-sidenav-menu .nav .nav-link{
+            color:#DFEAEE;
+            margin:5px 10px;
+            border-radius:8px;
+        }
+
+        .sb-sidenav-menu .nav-link.active{
+            background:#2F454E!important;color:#DFEAEE!important;
+        }
+
+        .sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading{
+            color:#798F97!important;
+            
+        }
+
+        .sb-nav-fixed #layoutSidenav #layoutSidenav_nav{
+            width:225pxpx;
+        }
+
+        @media (min-width: 992px){
+            #layoutSidenav #layoutSidenav_nav {
+                
+               transform:translateX(0);
+            }
+        }
+
+        @media (min-width: 992px){
+            .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {
+                transform: translateX(-225pxpx);
+            }
+        }
+
+        .sb-nav-fixed #layoutSidenav #layoutSidenav_content{
+            padding-left:225pxpx;
+        }
+
+        @media (min-width: 992px){
+
+            .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content {
+                margin-left:-225pxpx;
+            }
+        }
+
+
+        table thead tr{
+            background: #D6C2B4;
+        }
+        table tbody tr:nth-child(odd){
+            background: #F4F8EE;
+        }
+        table tbody tr:nth-child(even){
+            background: #DDE1D8;
+        }
+       
+        .table-bordered{
+            border:none !important;
+        }
+
+        
+        .sidebar .nav-link,.sidebar .nav-link .feather{
+            
+        }
+        
+
+        #layoutSidenav_content{
+            
+            background-position:center !important;
+            background-size:cover !important;
+            background-repeat:no-repeat !important;
+            
+        }
+
+        .btn-primary{                  
+            
+        }
+
+        .btn-secondary{                  
+            
+        }
+
+        .btn-success{                  
+            
+        }
+
+        .btn-danger{                  
+            
+        }
+
+        .btn-warning{                  
+            
+        }
+
+        .btn-info{                  
+            
+        }
+
+        .modal-header{
+            
+        }
+
+        .modal-body{
+            
+        }
+
+        .modal-footer{
+            
+        }
+
+        .card-header{
+            background:#f7f9fa!important;
+        }
+
+        .card-body{
+            
+        }
+
+        .card-footer{
+            
+        }
+
+        .page-item.active .page-link{
+            
+        }
+
+        .page-link:hover{
+            
+        }
+
+        input.form-control,text-area{
+            
+        }
+
+        .input-group-text{
+            
+        }
+
+        .input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child){
+            border-top-left-radius: 0 !important;
+            border-bottom-left-radius: 0 !important;
+        }
+
+        .input-group > .input-group-prepend > .input-group-text{
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+
+        label{
+            
+        }
+
+        .subheader{
+            
+        }
+
+        .subheader-title{
+            
+        }
+
+        .subheader-text{
+            
+        }
+
+
+        
+        main,table thead tr th,table tbody tr td{
+            
+        }
+        
+            .navbar-dark .navbar-brand,.navbar-dark .navbar-nav .nav-link{
+                
+            }
+        
+        
+        
